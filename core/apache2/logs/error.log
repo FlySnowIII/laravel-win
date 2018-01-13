@@ -1,0 +1,17 @@
+[Sat Jan 13 11:55:39.480781 2018] [mpm_winnt:notice] [pid 5012:tid 632] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sat Jan 13 11:55:39.480781 2018] [mpm_winnt:notice] [pid 5012:tid 632] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sat Jan 13 11:55:39.480781 2018] [core:notice] [pid 5012:tid 632] AH00094: Command line: 'C:\\Users\\pengf\\Documents\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/pengf/Documents/UniServerZ/core/apache2 -f C:\\Users\\pengf\\Documents\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\pengf\\Documents\\UniServerZ\\core\\apache2'
+[Sat Jan 13 11:55:39.512033 2018] [mpm_winnt:notice] [pid 5012:tid 632] AH00418: Parent: Created child process 1496
+[Sat Jan 13 11:55:40.324575 2018] [mpm_winnt:notice] [pid 1496:tid 664] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 14 00:40:23.024576 2018] [core:warn] [pid 972:tid 728] AH00098: pid file C:/Users/pengf/Documents/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 14 00:40:23.106990 2018] [mpm_winnt:notice] [pid 972:tid 728] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sun Jan 14 00:40:23.106990 2018] [mpm_winnt:notice] [pid 972:tid 728] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Jan 14 00:40:23.106990 2018] [core:notice] [pid 972:tid 728] AH00094: Command line: 'C:\\Users\\pengf\\Documents\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/pengf/Documents/UniServerZ/core/apache2 -f C:\\Users\\pengf\\Documents\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\pengf\\Documents\\UniServerZ\\core\\apache2'
+[Sun Jan 14 00:40:23.122618 2018] [mpm_winnt:notice] [pid 972:tid 728] AH00418: Parent: Created child process 5004
+[Sun Jan 14 00:40:23.910300 2018] [mpm_winnt:notice] [pid 5004:tid 668] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 14 00:41:29.429374 2018] [core:warn] [pid 3616:tid 660] AH00098: pid file C:/Users/pengf/Documents/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 14 00:41:29.547423 2018] [mpm_winnt:notice] [pid 3616:tid 660] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sun Jan 14 00:41:29.547423 2018] [mpm_winnt:notice] [pid 3616:tid 660] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Jan 14 00:41:29.547423 2018] [core:notice] [pid 3616:tid 660] AH00094: Command line: 'C:\\Users\\pengf\\Documents\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/pengf/Documents/UniServerZ/core/apache2 -f C:\\Users\\pengf\\Documents\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\pengf\\Documents\\UniServerZ\\core\\apache2'
+[Sun Jan 14 00:41:29.567627 2018] [mpm_winnt:notice] [pid 3616:tid 660] AH00418: Parent: Created child process 8676
+[Sun Jan 14 00:41:30.742391 2018] [mpm_winnt:notice] [pid 8676:tid 652] AH00354: Child: Starting 150 worker threads.
