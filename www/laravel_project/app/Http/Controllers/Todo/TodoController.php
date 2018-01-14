@@ -28,7 +28,7 @@ class TodoController extends Controller
 
         $photo = $request->file('photo');
         $extension = $photo->extension();
-        $store_result = $photo->store('public');
+        $store_result = $photo->store('public/todo');
         // $store_result = $photo->storeAs('public/photo', 'test.jpg');
         $url = Storage::url($store_result);
         // $output = [
