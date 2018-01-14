@@ -15,3 +15,9 @@
 [Sun Jan 14 00:41:29.547423 2018] [core:notice] [pid 3616:tid 660] AH00094: Command line: 'C:\\Users\\pengf\\Documents\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/pengf/Documents/UniServerZ/core/apache2 -f C:\\Users\\pengf\\Documents\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\pengf\\Documents\\UniServerZ\\core\\apache2'
 [Sun Jan 14 00:41:29.567627 2018] [mpm_winnt:notice] [pid 3616:tid 660] AH00418: Parent: Created child process 8676
 [Sun Jan 14 00:41:30.742391 2018] [mpm_winnt:notice] [pid 8676:tid 652] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 14 14:23:45.578646 2018] [core:warn] [pid 9192:tid 588] AH00098: pid file C:/Users/pengf/Documents/tanproject/laravel-win/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 14 14:23:45.960901 2018] [mpm_winnt:notice] [pid 9192:tid 588] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sun Jan 14 14:23:45.960901 2018] [mpm_winnt:notice] [pid 9192:tid 588] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Jan 14 14:23:45.960901 2018] [core:notice] [pid 9192:tid 588] AH00094: Command line: 'C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/pengf/Documents/tanproject/laravel-win/core/apache2 -f C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2'
+[Sun Jan 14 14:23:45.992923 2018] [mpm_winnt:notice] [pid 9192:tid 588] AH00418: Parent: Created child process 1228
+[Sun Jan 14 14:23:47.178714 2018] [mpm_winnt:notice] [pid 1228:tid 600] AH00354: Child: Starting 150 worker threads.

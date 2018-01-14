@@ -18,3 +18,6 @@ Homestead.json
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
+core/apache2/logs/access.log
+core/apache2/logs/error.log
+core/apache2/logs/httpd.pid
