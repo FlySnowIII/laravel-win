@@ -23,3 +23,6 @@ error.log
 httpd.pid
 /tmp
 /core/apache2/logs
+core/apache2/logs/access.log
+core/apache2/logs/error.log
+core/apache2/logs/httpd.pid
