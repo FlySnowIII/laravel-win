@@ -21,3 +21,21 @@
 [Sun Jan 14 14:23:45.960901 2018] [core:notice] [pid 9192:tid 588] AH00094: Command line: 'C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/pengf/Documents/tanproject/laravel-win/core/apache2 -f C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2'
 [Sun Jan 14 14:23:45.992923 2018] [mpm_winnt:notice] [pid 9192:tid 588] AH00418: Parent: Created child process 1228
 [Sun Jan 14 14:23:47.178714 2018] [mpm_winnt:notice] [pid 1228:tid 600] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 14 20:48:01.352007 2018] [core:warn] [pid 11988:tid 644] AH00098: pid file C:/Users/pengf/Documents/tanproject/laravel-win/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 14 20:48:01.383258 2018] [mpm_winnt:notice] [pid 11988:tid 644] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sun Jan 14 20:48:01.383258 2018] [mpm_winnt:notice] [pid 11988:tid 644] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Jan 14 20:48:01.383258 2018] [core:notice] [pid 11988:tid 644] AH00094: Command line: 'C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/pengf/Documents/tanproject/laravel-win/core/apache2 -f C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2'
+[Sun Jan 14 20:48:01.403433 2018] [mpm_winnt:notice] [pid 11988:tid 644] AH00418: Parent: Created child process 7664
+[Sun Jan 14 20:48:02.450559 2018] [mpm_winnt:notice] [pid 7664:tid 4] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 14 21:13:32.088849 2018] [core:warn] [pid 4424:tid 624] AH00098: pid file C:/Users/pengf/Documents/tanproject/laravel-win/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 14 21:13:32.155819 2018] [mpm_winnt:notice] [pid 4424:tid 624] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sun Jan 14 21:13:32.155819 2018] [mpm_winnt:notice] [pid 4424:tid 624] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Jan 14 21:13:32.155819 2018] [core:notice] [pid 4424:tid 624] AH00094: Command line: 'C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/pengf/Documents/tanproject/laravel-win/core/apache2 -f C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2'
+[Sun Jan 14 21:13:32.187068 2018] [mpm_winnt:notice] [pid 4424:tid 624] AH00418: Parent: Created child process 6064
+[Sun Jan 14 21:13:33.207905 2018] [mpm_winnt:notice] [pid 6064:tid 692] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 14 21:38:25.994915 2018] [core:warn] [pid 11228:tid 608] AH00098: pid file C:/Users/pengf/Documents/tanproject/laravel-win/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 14 21:38:26.031697 2018] [mpm_winnt:notice] [pid 11228:tid 608] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sun Jan 14 21:38:26.031697 2018] [mpm_winnt:notice] [pid 11228:tid 608] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Jan 14 21:38:26.031697 2018] [core:notice] [pid 11228:tid 608] AH00094: Command line: 'C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/pengf/Documents/tanproject/laravel-win/core/apache2 -f C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\pengf\\Documents\\tanproject\\laravel-win\\core\\apache2'
+[Sun Jan 14 21:38:26.047324 2018] [mpm_winnt:notice] [pid 11228:tid 608] AH00418: Parent: Created child process 3324
+[Sun Jan 14 21:38:27.151218 2018] [mpm_winnt:notice] [pid 3324:tid 680] AH00354: Child: Starting 150 worker threads.

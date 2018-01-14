@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\CMS\Todo;
 
+use Illuminate\Support\Facades\Storage;
+
 class TodoController extends Controller
 {
     //
@@ -17,14 +19,31 @@ class TodoController extends Controller
 
     public function update(Request $request){
 
-        $todo = new Todo($request->all());
+         $todo = new Todo($request->all());
 
-        $todo->url = "temp/img/001.jpg";
+        // $todo->url = "temp/img/001.jpg";
         
-        $todo->save();
+        // $todo->save();
 
-        // return $todo;
-        return redirect("todo");
+        // // return $todo;
+        // return redirect("todo");
+
+        // $path = $request->file('pic')->storeAs(
+        //     'pic', $todo->title
+        // );
+
+        $photo = $request->file('photo');
+        $extension = $photo->extension();
+        $store_result = $photo->store('public/photo');
+        // $store_result = $photo->storeAs('public/photo', 'test.jpg');
+        $output = [
+            'extension' => $extension,
+            'store_result' => $store_result
+        ];
+
+
+        return $output;
+
     }
     
     public function destroy(Request $request,Todo $todo){

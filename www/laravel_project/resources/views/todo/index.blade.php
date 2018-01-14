@@ -9,10 +9,13 @@
 <body>
     <h1>Hello World</h1>
     
-    <form action="{{ url('/todo') }}" method="post">
+    <form action="{{ url('/todo') }}" method="post" enctype="multipart/form-data">
         {{ csrf_field() }}
         <input type="text" id="title" name="title"/>
         <input type="text" id="memo" name="memo"/>
+        <br>
+        <input type="file" name="photo" id="photo">
+        <br>
         <input type="submit" value="Send"/>
     </form>
 

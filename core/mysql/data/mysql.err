@@ -308,3 +308,22 @@ Version: '5.6.35'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2018-01-14 20:25:30 5212 [Note] Shutting down plugin 'binlog'
 2018-01-14 20:25:30 5212 [Note] C:\Users\pengf\Documents\tanproject\laravel-win\core\mysql\bin\mysqld_z.exe: Shutdown complete
 
+2018-01-14 20:48:05 7016 [Note] Plugin 'FEDERATED' is disabled.
+2018-01-14 20:48:05 7016 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2018-01-14 20:48:05 7016 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-14 20:48:05 7016 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-14 20:48:05 7016 [Note] InnoDB: Memory barrier is not used
+2018-01-14 20:48:05 7016 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-14 20:48:05 7016 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-14 20:48:05 7016 [Note] InnoDB: Initializing buffer pool, size = 32.0M
+2018-01-14 20:48:05 7016 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-14 20:48:05 7016 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-14 20:48:05 7016 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-14 20:48:05 7016 [Note] InnoDB: Waiting for purge to start
+2018-01-14 20:48:05 7016 [Note] InnoDB: 5.6.35 started; log sequence number 1847001
+2018-01-14 20:48:05 7016 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-01-14 20:48:05 7016 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-01-14 20:48:05 7016 [Note] Server socket created on IP: '127.0.0.1'.
+2018-01-14 20:48:05 7016 [Note] Event Scheduler: Loaded 0 events
+2018-01-14 20:48:05 7016 [Note] C:\Users\pengf\Documents\tanproject\laravel-win\core\mysql\bin\mysqld_z.exe: ready for connections.
+Version: '5.6.35'  socket: ''  port: 3306  MySQL Community Server (GPL)
