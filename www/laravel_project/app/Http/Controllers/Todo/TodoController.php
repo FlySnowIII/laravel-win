@@ -19,31 +19,31 @@ class TodoController extends Controller
 
     public function update(Request $request){
 
-         $todo = new Todo($request->all());
+        $todo = new Todo($request->all());
 
-        // $todo->url = "temp/img/001.jpg";
-        
-        // $todo->save();
-
-        // // return $todo;
-        // return redirect("todo");
-
+ 
         // $path = $request->file('pic')->storeAs(
         //     'pic', $todo->title
         // );
 
         $photo = $request->file('photo');
         $extension = $photo->extension();
-        $store_result = $photo->store('public/photo');
+        $store_result = $photo->store('public');
         // $store_result = $photo->storeAs('public/photo', 'test.jpg');
-        $output = [
-            'extension' => $extension,
-            'store_result' => $store_result
-        ];
+        $url = Storage::url($store_result);
+        // $output = [
+        //     'extension' => $extension,
+        //     'store_result' => $store_result,
+        //     'url' => $url
+        // ];
 
+        // return $output;
 
-        return $output;
+        $todo->url = $url;
 
+        $todo->save();
+
+        return redirect("todo");
     }
     
     public function destroy(Request $request,Todo $todo){
